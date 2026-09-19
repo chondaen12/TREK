@@ -14,7 +14,7 @@ const storage: TranslationStrings = {
   'storage.field.region': "ภูมิภาค",
   'storage.help.region': "คงค่าเริ่มต้นไว้ เว้นแต่ผู้ให้บริการของคุณต้องการภูมิภาคเฉพาะ",
   'storage.field.keyPrefix': "คำนำหน้าที่สำคัญ",
-  'storage.help.keyPrefix': "คำนำหน้าเพิ่มเติมที่เพิ่มให้กับทุกออบเจ็กต์คีย์ เช่น ช่วงระยะการเดินทาง/ผลิตภัณฑ์",
+  'storage.help.keyPrefix': "คำนำหน้าเพิ่มเติมที่จะเพิ่มให้กับคีย์ของออบเจ็กต์ทุกตัว เช่น trek/prod",
   'storage.field.retries': "ลองอีกครั้ง",
   'storage.field.timeoutMs': "หมดเวลา (มิลลิวินาที)",
   'storage.field.primary': "แบ็กเอนด์หลัก",
