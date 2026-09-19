@@ -31,7 +31,7 @@ const admin: TranslationStrings = {
   'admin.notifications.adminNtfyPanel.title': "แอดมิน Ntfy",
   'admin.notifications.adminNtfyPanel.hint':
     "หัวข้อ ntfy นี้ใช้สำหรับการแจ้งเตือนของผู้ดูแลระบบโดยเฉพาะ (เช่น การแจ้งเตือนเวอร์ชัน) แยกจากหัวข้อต่อผู้ใช้และเริ่มทำงานเสมอเมื่อมีการกำหนดค่า",
-  'admin.notifications.adminNtfyPanel.serverLabel': "URL เซิร์ฟเวอร์ NTF",
+  'admin.notifications.adminNtfyPanel.serverLabel': "URL เซิร์ฟเวอร์ ntfy",
   'admin.notifications.adminNtfyPanel.serverHint':
     "ยังใช้เป็นเซิร์ฟเวอร์เริ่มต้นสำหรับการแจ้งเตือนผู้ใช้ ntfy เว้นว่างไว้เป็นค่าเริ่มต้นเป็น ntfy.sh ผู้ใช้สามารถแทนที่สิ่งนี้ได้ในการตั้งค่าของตนเอง",
   'admin.notifications.adminNtfyPanel.serverPlaceholder': "https://ntfy.sh",
@@ -155,10 +155,10 @@ const admin: TranslationStrings = {
   'admin.fileTypesHint': "กำหนดค่าประเภทไฟล์ที่ผู้ใช้สามารถอัปโหลดได้",
   'admin.fileTypesFormat': "ส่วนขยายที่คั่นด้วยเครื่องหมายจุลภาค (เช่น jpg,png,pdf,doc) ใช้ * เพื่ออนุญาตทุกประเภท",
   'admin.fileTypesSaved': "บันทึกการตั้งค่าประเภทไฟล์แล้ว",
-  'admin.placesPhotos.title': "สถานที่รูปถ่าย",
+  'admin.placesPhotos.title': "รูปภาพสถานที่",
   'admin.placesPhotos.subtitle':
     "ดึงรูปภาพจาก Google Places API ปิดใช้เพื่อบันทึกโควต้า API ภาพถ่ายวิกิมีเดียไม่ได้รับผลกระทบ",
-  'admin.placesAutocomplete.title': "วางการเติมข้อความอัตโนมัติ",
+  'admin.placesAutocomplete.title': "การเติมคำอัตโนมัติสำหรับสถานที่",
   'admin.placesAutocomplete.subtitle': "ใช้ Google Places API เพื่อแนะนำการค้นหา ปิดใช้เพื่อบันทึกโควต้า API",
   'admin.placesDetails.title': "รายละเอียดสถานที่",
   'admin.placesDetails.subtitle':
@@ -186,9 +186,9 @@ const admin: TranslationStrings = {
   'admin.defaultSettings.resetToBuiltIn': "รีเซ็ต",
   'admin.defaultSettings.mapProvider': "เครื่องยนต์แผนที่",
   'admin.defaultSettings.mapProviderHint':
-    "แผนที่เริ่มต้นสำหรับทุกคนในกรณีนี้ ผู้ใช้แต่ละคนยังสามารถแทนที่การตั้งค่าของตนเองได้",
+    "แผนที่เริ่มต้นสำหรับผู้ใช้ทุกคนในอินสแตนซ์นี้ ผู้ใช้แต่ละคนยังสามารถแทนที่ในการตั้งค่าของตนเองได้",
   'admin.defaultSettings.providerLeaflet': "มาตรฐาน (ฟรี)",
-  'admin.defaultSettings.providerMapbox': "กล่องแผนที่ (3D)",
+  'admin.defaultSettings.providerMapbox': "Mapbox (3D)",
   'admin.defaultSettings.providerMapLibre': "MapLibre (OpenFreeMap)",
   'admin.defaultSettings.mapboxToken': "โทเค็น Mapbox ที่ใช้ร่วมกัน",
   'admin.defaultSettings.mapboxTokenHint':
@@ -249,16 +249,16 @@ const admin: TranslationStrings = {
   'admin.plugins.errorLog': "บันทึกข้อผิดพลาด",
   'admin.plugins.allowedHosts': "โฮสต์ที่ได้รับอนุญาต",
   'admin.plugins.allowedHosts.hint':
-    "ปลั๊กอินนี้พูดถึงบริการที่มีเพียงคุณเท่านั้นที่สามารถตั้งชื่อได้ เพิ่มโฮสต์ที่อาจเข้าถึง — ไม่สามารถเข้าถึงผู้อื่นได้",
-  'admin.plugins.allowedHosts.none': "ยังไม่มีเจ้าภาพเพิ่ม",
+    "ปลั๊กอินนี้เชื่อมต่อกับบริการที่มีเพียงคุณเท่านั้นที่ระบุได้ เพิ่มโฮสต์ที่อนุญาตให้เชื่อมต่อได้ — นอกเหนือจากนั้นจะเชื่อมต่อไม่ได้",
+  'admin.plugins.allowedHosts.none': "ยังไม่ได้เพิ่มโฮสต์",
   'admin.plugins.allowedHosts.unsupported':
-    "ปลั๊กอินนี้ไม่ได้ใช้โฮสต์ที่ผู้ให้บริการจัดหาให้ โฮสต์ที่ได้รับอนุญาตได้รับการแก้ไขในรายการของมัน",
+    "ปลั๊กอินนี้ไม่ได้ใช้โฮสต์ที่ผู้ดูแลระบุ โฮสต์ที่อนุญาตถูกกำหนดไว้ตายตัวใน manifest",
   'admin.plugins.allowedHosts.restartNote': "การบันทึกจะรีสตาร์ทปลั๊กอินเพื่อให้เลือกรายการใหม่",
   'admin.plugins.allowedHosts.add': "เพิ่มโฮสต์ที่ได้รับอนุญาต",
   'admin.plugins.allowedHosts.count': "{n} โฮสต์ที่อนุญาต",
   'admin.plugins.operatorEgressPill': "+ โฮสต์ที่คุณเพิ่ม",
   'admin.plugins.operatorEgressHint':
-    "ปลั๊กอินนี้พูดถึงบริการที่มีเพียงคุณเท่านั้นที่สามารถตั้งชื่อได้ หลังจากติดตั้งแล้ว ให้เพิ่มโฮสต์ที่อาจเข้าถึงได้ใน ⋯ → โฮสต์ที่อนุญาต มันไม่สามารถเข้าถึงผู้อื่นได้",
+    "ปลั๊กอินนี้เชื่อมต่อกับบริการที่มีเพียงคุณเท่านั้นที่ระบุได้ หลังจากติดตั้งแล้ว ให้เพิ่มโฮสต์ที่อนุญาตใน ⋯ → โฮสต์ที่อนุญาต นอกเหนือจากนั้นจะเชื่อมต่อไม่ได้",
   'admin.plugins.noErrors': "ไม่มีการบันทึกข้อผิดพลาด",
   'admin.plugins.uninstalled': "ถอนการติดตั้งปลั๊กอินแล้ว",
   'admin.plugins.uninstallTitle': "ถอนการติดตั้งปลั๊กอินใช่ไหม",
@@ -337,21 +337,21 @@ const admin: TranslationStrings = {
     "เรียกใช้ผู้ให้บริการ AI ที่กำหนดค่าโดยผู้ดูแลระบบ (การเติมข้อความ + การแยกเอกสาร) ในนามของผู้ใช้ที่ทำหน้าที่ — ปลั๊กอินไม่เคยเก็บคีย์ไว้",
   'admin.plugins.perm.oauth:client':
     "เชื่อมต่อกับบริการของบุคคลที่สามในนามของคุณผ่าน OAuth ที่เป็นนายหน้าโฮสต์ (โฮสต์ถือโทเค็น ปลั๊กอินจะไม่เคยเห็นโทเค็นเหล่านั้นเลย)",
-  'admin.plugins.perm.db:read:files': "อ่านไฟล์การเดินทางที่ผู้ใช้บริการสามารถเข้าถึงได้",
+  'admin.plugins.perm.db:read:files': "อ่านไฟล์ของทริปที่ผู้ใช้ที่กำลังดำเนินการเข้าถึงได้",
   'admin.plugins.perm.db:read:journal': "อ่านบันทึกการเดินทางของผู้ใช้บริการ (ต้องการ Addon Journey)",
   'admin.plugins.perm.db:read:atlas':
     "อ่านประเทศและภูมิภาคที่เยี่ยมชมของผู้ใช้ที่ทำหน้าที่ (ต้องการ Atlas addon)",
   'admin.plugins.perm.db:read:vacay': "อ่านแผนวันหยุดของผู้ใช้ที่ทำหน้าที่ (ต้องการ Vacay addon)",
-  'admin.plugins.perm.db:read:daynotes': "อ่านบันทึกประจำวันของการเดินทางที่ผู้ใช้บริการสามารถเข้าถึงได้",
+  'admin.plugins.perm.db:read:daynotes': "อ่านบันทึกประจำวันของทริปที่ผู้ใช้ที่กำลังดำเนินการเข้าถึงได้",
   'admin.plugins.perm.db:read:collections':
     "อ่านคอลเลกชันสถานที่ที่บันทึกไว้ของผู้ใช้ที่ทำหน้าที่ (ต้องการส่วนเสริมคอลเลกชัน)",
   'admin.plugins.perm.db:write:costs': "สร้างต้นทุน (รายการงบประมาณ) ในการเดินทางที่ผู้ใช้ที่ดำเนินการสามารถแก้ไขได้",
-  'admin.plugins.perm.db:write:places': "เพิ่ม แก้ไข และลบสถานที่ในการเดินทางที่ผู้ใช้บริการสามารถแก้ไขได้",
-  'admin.plugins.perm.db:write:days': "เพิ่ม แก้ไข และลบวันในการเดินทางที่ผู้ใช้บริการสามารถแก้ไขได้",
+  'admin.plugins.perm.db:write:places': "เพิ่ม แก้ไข และลบสถานที่ในทริปที่ผู้ใช้ที่กำลังดำเนินการแก้ไขได้",
+  'admin.plugins.perm.db:write:days': "เพิ่ม แก้ไข และลบวันในทริปที่ผู้ใช้ที่กำลังดำเนินการแก้ไขได้",
   'admin.plugins.perm.db:write:itinerary': "กำหนดและลบสถานที่ในวันที่เดินทางซึ่งผู้ใช้ที่ดำเนินการสามารถแก้ไขได้",
-  'admin.plugins.perm.db:write:trips': "แก้ไขรายละเอียดการเดินทาง (ชื่อ วันที่ สกุลเงิน…) ในการเดินทางที่ผู้ใช้บริการสามารถแก้ไขได้",
+  'admin.plugins.perm.db:write:trips': "แก้ไขรายละเอียดทริป (ชื่อ วันที่ สกุลเงิน…) ในทริปที่ผู้ใช้ที่กำลังดำเนินการแก้ไขได้",
   'admin.plugins.perm.db:write:reservations':
-    "สร้าง แก้ไข และลบการจอง (การจอง) ในการเดินทางที่ผู้ใช้บริการสามารถแก้ไขได้",
+    "สร้าง แก้ไข และลบการจองในทริปที่ผู้ใช้ที่กำลังดำเนินการแก้ไขได้",
   'admin.plugins.perm.db:write:accommodations':
     "สร้าง แก้ไข และลบที่พัก (ช่วงที่พัก) ในการเดินทางที่ผู้ใช้บริการสามารถแก้ไขได้",
   'admin.plugins.perm.db:write:daynotes': "สร้าง แก้ไข และลบบันทึกประจำวันของการเดินทางที่ผู้ใช้บริการสามารถแก้ไขได้",
@@ -370,7 +370,7 @@ const admin: TranslationStrings = {
   'admin.plugins.perm.hook:day-schedule-provider':
     "แนบรายการเวลาเข้ากับแผนวัน (จุดชาร์จ บัฟเฟอร์ความปลอดภัย)",
   'admin.plugins.perm.hook:day-tint-provider':
-    "รหัสสีวันในแผนวัน (เช่น ขาของการเดินทางในหนึ่งวันเป็นของ)",
+    "กำหนดสีให้แต่ละวันในแผนรายวัน (เช่น เพื่อแสดงว่าวันนั้นอยู่ในช่วงใดของทริป)",
   'admin.plugins.cap.mcpTools': "เผยแพร่เครื่องมือ AI",
   'admin.plugins.mcpToolsTitle': "เครื่องมือ AI ที่เผยแพร่",
   'admin.plugins.mcpToolsHint': "ผู้ช่วยสามารถเรียกใช้สิ่งเหล่านี้ในนามของผู้ใช้ได้ แต่ละคนดำเนินการตามสิทธิ์การเข้าถึงที่ได้รับข้างต้น",
@@ -391,7 +391,7 @@ const admin: TranslationStrings = {
     "รันงานพื้นหลังที่ประกาศตามกำหนดเวลา (ไม่มีบริบทของผู้ใช้ — ไม่สามารถอ่านข้อมูลผู้ใช้ได้)",
   'admin.plugins.perm.http:outbound': "ส่งคำขอขาออกไปยังโฮสต์ที่ประกาศไว้",
   'admin.plugins.perm.db:read:collab':
-    "อ่านบันทึก โพล และข้อความแชทเกี่ยวกับการเดินทางที่ผู้ใช้บริการสามารถเข้าถึงได้ (ต้องการส่วนเสริม Collab)",
+    "อ่านบันทึก โพล และข้อความแชทของทริปที่ผู้ใช้ที่กำลังดำเนินการเข้าถึงได้ (ต้องการส่วนเสริม Collab)",
   'admin.plugins.perm.db:read:files:content': "อ่านเนื้อหาไบต์ของไฟล์ในการเดินทางที่ผู้ใช้ที่ดำเนินการสามารถเข้าถึงได้",
   'admin.plugins.perm.db:create:trips': "สร้างการเดินทางใหม่ที่เป็นของผู้ใช้ที่รักษาการ",
   'admin.plugins.perm.rates:read': "อ่านอัตราแลกเปลี่ยนสกุลเงินแคชของโฮสต์",
@@ -401,10 +401,10 @@ const admin: TranslationStrings = {
   'admin.plugins.updateNewPermissions': "สิทธิ์ที่ร้องขอใหม่",
   'admin.plugins.updateNewEgress': "การเชื่อมต่อขาออกใหม่",
   'admin.plugins.updateApprove': "อนุมัติและเปิดใช้งาน",
-  'admin.plugins.updateLater': "งดไปก่อนนะครับ",
+  'admin.plugins.updateLater': "ปิดไว้ก่อน",
   'admin.plugins.updateKeptOff': "ติดตั้งการอัปเดตแล้ว — ปล่อยทิ้งไว้จนกว่าคุณจะอนุมัติสิทธิ์ใหม่",
   'admin.plugins.reviewedMeaning':
-    "\"ตรวจสอบแล้ว\" หมายถึงผู้ดูแล TREK ได้สแกนปลั๊กอินนี้เพื่อหามัลแวร์ในแต่ละเวอร์ชัน ไม่ใช่เพื่อคุณภาพหรือการทำงานหรือไม่ ไม่ได้เป็นการรับประกันว่าปลั๊กอินจะไม่เป็นอันตราย",
+    "\"ตรวจสอบแล้ว\" หมายถึงผู้ดูแล TREK ได้สแกนปลั๊กอินนี้หามัลแวร์ในแต่ละเวอร์ชันเท่านั้น ไม่ได้ตรวจสอบคุณภาพหรือการทำงาน จึงไม่ใช่การรับประกันว่าปลั๊กอินจะปลอดภัย",
   'admin.plugins.security.title': "วิธีการบรรจุปลั๊กอิน — และข้อจำกัด",
   'admin.plugins.security.isolationTitle': "ปลั๊กอินทุกตัวทำงานแบบบรรจุกล่อง",
   'admin.plugins.security.isolationBody':

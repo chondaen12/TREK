@@ -8,6 +8,7 @@ import collab from './collab';
 import collection from './collection';
 import common from './common';
 import dashboard from './dashboard';
+import dawarich from './dawarich';
 import day from './day';
 import dayplan from './dayplan';
 import files from './files';
@@ -37,6 +38,7 @@ import photos from './photos';
 import places from './places';
 import planner from './planner';
 import register from './register';
+import roadtrip from './roadtrip';
 import reservations from './reservations';
 import settings from './settings';
 import share from './share';
@@ -56,6 +58,7 @@ const locale = {
   ...trips,
   ...nav,
   ...dashboard,
+  ...roadtrip,
   ...settings,
   ...admin,
   ...dayplan,
@@ -104,5 +107,6 @@ const locale = {
   ...mobileSettings,
   ...mobileCollections,
   ...storage,
+  ...dawarich,
 };
 export default locale;

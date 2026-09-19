@@ -14,7 +14,7 @@ const register: TranslationStrings = {
   'register.feature6': "จัดเก็บรูปภาพและไฟล์",
   'register.createAccount': "สร้างบัญชี",
   'register.startPlanning': "เริ่มวางแผนการเดินทางของคุณ",
-  'register.minChars': "นาที 6 ตัวอักษร",
+  'register.minChars': "อย่างน้อย 6 อักขระ",
   'register.confirmPassword': "ยืนยันรหัสผ่าน",
   'register.repeatPassword': "ทำซ้ำรหัสผ่าน",
   'register.registering': "กำลังลงทะเบียน...",

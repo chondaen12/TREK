@@ -121,7 +121,7 @@ const reservations: TranslationStrings = {
   // multi-day parking ends and you collect your own car again. Both read the same way
   // in every locale, so parking only needs the drop-off wording of its own.
   'reservations.span.pickup': "รับรถ",
-  'reservations.span.dropOff': "ส่งลง",
+  'reservations.span.dropOff': "นำรถไปจอด/คืนรถ",
   'reservations.span.return': "กลับ",
   'reservations.span.active': "ใช้งานอยู่",
   'reservations.span.start': "เริ่ม",

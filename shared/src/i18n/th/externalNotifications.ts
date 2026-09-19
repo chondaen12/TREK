@@ -1,77 +1,77 @@
 import type { NotificationLocale } from '../externalNotifications/types';
 
-const en: NotificationLocale = {
+const th: NotificationLocale = {
   email: {
-    footer: 'You received this because you have notifications enabled in TREK.',
-    manage: 'Manage preferences in Settings',
-    madeWith: 'Made with',
-    openTrek: 'Open TREK',
+    footer: 'คุณได้รับข้อความนี้เนื่องจากเปิดใช้การแจ้งเตือนใน TREK',
+    manage: 'จัดการการตั้งค่าในหน้าการตั้งค่า',
+    madeWith: 'สร้างด้วย',
+    openTrek: 'เปิด TREK',
   },
   events: {
     trip_invite: (p) => ({
-      title: `Trip invite: "${p.trip}"`,
-      body: `${p.actor} invited ${p.invitee || 'a member'} to the trip "${p.trip}".`,
+      title: `คำเชิญเข้าร่วมทริป: "${p.trip}"`,
+      body: `${p.actor} เชิญ ${p.invitee || 'สมาชิก'} ให้เข้าร่วมทริป "${p.trip}"`,
     }),
     booking_change: (p) => ({
-      title: `New booking: ${p.booking}`,
-      body: `${p.actor} added a new ${p.type} "${p.booking}" to "${p.trip}".`,
+      title: `การจองใหม่: ${p.booking}`,
+      body: `${p.actor} เพิ่ม${p.type}ใหม่ "${p.booking}" ลงใน "${p.trip}"`,
     }),
     trip_reminder: (p) => ({
-      title: `Trip reminder: ${p.trip}`,
-      body: `Your trip "${p.trip}" is coming up soon!`,
+      title: `แจ้งเตือนทริป: ${p.trip}`,
+      body: `ทริป "${p.trip}" ของคุณกำลังจะมาถึงเร็ว ๆ นี้!`,
     }),
     todo_due: (p) => ({
-      title: `To-do due: ${p.todo}`,
-      body: `"${p.todo}" in "${p.trip}" is due on ${p.due}.`,
+      title: `งานที่ถึงกำหนด: ${p.todo}`,
+      body: `"${p.todo}" ใน "${p.trip}" ครบกำหนดวันที่ ${p.due}`,
     }),
     vacay_invite: (p) => ({
-      title: 'Vacay Fusion Invite',
-      body: `${p.actor} invited you to fuse vacation plans. Open TREK to accept or decline.`,
+      title: 'คำเชิญรวมปฏิทินวันลา',
+      body: `${p.actor} เชิญคุณให้รวมแผนวันลา เปิด TREK เพื่อยอมรับหรือปฏิเสธ`,
     }),
     vacay_share: (p) => ({
-      title: 'Vacay Calendar Shared',
-      body: `${p.actor} shared their vacation calendar with you. Open TREK to view it.`,
+      title: 'แชร์ปฏิทินวันลาแล้ว',
+      body: `${p.actor} แชร์ปฏิทินวันลาของตนกับคุณ เปิด TREK เพื่อดู`,
     }),
     collection_invite: (p) => ({
-      title: 'Collection invite',
-      body: `${p.actor} invited you to share a collection. Open TREK to accept or decline.`,
+      title: 'คำเชิญให้แชร์คอลเลกชัน',
+      body: `${p.actor} เชิญคุณให้แชร์คอลเลกชัน เปิด TREK เพื่อยอมรับหรือปฏิเสธ`,
     }),
     photos_shared: (p) => ({
-      title: `${p.count} photos shared`,
-      body: `${p.actor} shared ${p.count} photo(s) in "${p.trip}".`,
+      title: `แชร์รูปภาพ ${p.count} รูปแล้ว`,
+      body: `${p.actor} แชร์รูปภาพ ${p.count} รูปใน "${p.trip}"`,
     }),
     collab_message: (p) => ({
-      title: `New message in "${p.trip}"`,
+      title: `ข้อความใหม่ใน "${p.trip}"`,
       body: `${p.actor}: ${p.preview}`,
     }),
     packing_tagged: (p) => ({
-      title: `Packing: ${p.category}`,
-      body: `${p.actor} assigned you to the "${p.category}" packing category in "${p.trip}".`,
+      title: `รายการจัดกระเป๋า: ${p.category}`,
+      body: `${p.actor} มอบหมายหมวดหมู่รายการจัดกระเป๋า "${p.category}" ให้คุณใน "${p.trip}"`,
     }),
     version_available: (p) => ({
-      title: 'New TREK version available',
-      body: `TREK ${p.version} is now available. Visit the admin panel to update.`,
+      title: 'มี TREK เวอร์ชันใหม่',
+      body: `TREK ${p.version} พร้อมใช้งานแล้ว ไปที่แผงผู้ดูแลระบบเพื่ออัปเดต`,
     }),
     replica_failure: (p) => ({
-      title: 'Storage replica failure',
+      title: 'การจำลองที่เก็บข้อมูลล้มเหลว',
       body:
-        `Replica write failed on '${p.backend}': ${p.op} of ${p.key} — ${p.error}.` +
-        (p.suppressed !== '0' ? ` ${p.suppressed} more failures were suppressed since the last notification.` : ''),
+        `การเขียนไปยังแบบจำลอง '${p.backend}' ล้มเหลว: ${p.op} ของ ${p.key} — ${p.error}.` +
+        (p.suppressed !== '0' ? ` มีการระงับข้อผิดพลาดเพิ่มเติม ${p.suppressed} รายการตั้งแต่การแจ้งเตือนครั้งก่อน` : ''),
     }),
     synology_session_cleared: () => ({
-      title: 'Synology session cleared',
-      body: 'Your Synology account or URL changed. You have been logged out of Synology Photos.',
+      title: 'ล้างเซสชัน Synology แล้ว',
+      body: 'บัญชีหรือ URL ของ Synology เปลี่ยนแปลง คุณจึงออกจากระบบ Synology Photos แล้ว',
     }),
     plugin_notification: (p) => ({ title: p.title ?? '', body: p.body ?? '' }),
   },
   passwordReset: {
-    subject: 'Reset your password',
-    greeting: 'Hi',
-    body: 'We received a request to reset the password for your TREK account. Click the button below to set a new password.',
-    ctaIntro: 'Reset password',
-    expiry: 'This link expires in 60 minutes.',
-    ignore: "If you didn't request this, you can safely ignore this email — your password won't change.",
+    subject: 'รีเซ็ตรหัสผ่านของคุณ',
+    greeting: 'สวัสดี',
+    body: 'เราได้รับคำขอรีเซ็ตรหัสผ่านสำหรับบัญชี TREK ของคุณ คลิกปุ่มด้านล่างเพื่อตั้งรหัสผ่านใหม่',
+    ctaIntro: 'รีเซ็ตรหัสผ่าน',
+    expiry: 'ลิงก์นี้จะหมดอายุใน 60 นาที',
+    ignore: 'หากคุณไม่ได้ส่งคำขอนี้ คุณสามารถละเว้นอีเมลนี้ได้อย่างปลอดภัย — รหัสผ่านของคุณจะไม่เปลี่ยนแปลง',
   },
 };
 
-export default en;
+export default th;

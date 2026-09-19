@@ -66,8 +66,8 @@ const login: TranslationStrings = {
   'login.resetPasswordInvalidLink': "ลิงก์รีเซ็ตไม่ถูกต้อง",
   'login.resetPasswordInvalidLinkBody': "ลิงก์นี้หายไปหรือใช้งานไม่ได้ โปรดขอลิงก์ใหม่เพื่อดำเนินการต่อ",
   'login.resetPasswordFailed': "การรีเซ็ตล้มเหลว ลิงก์อาจหมดอายุแล้ว",
-  'login.passkey.signIn': "เข้าสู่ระบบด้วยรหัสผ่าน",
-  'login.passkey.failed': "การลงชื่อเข้าใช้รหัสผ่านล้มเหลว โปรดลองอีกครั้ง",
+  'login.passkey.signIn': "เข้าสู่ระบบด้วยพาสคีย์",
+  'login.passkey.failed': "การเข้าสู่ระบบด้วยพาสคีย์ล้มเหลว โปรดลองอีกครั้ง",
   'login.insecureCookie.title': "การเข้าสู่ระบบจะไม่ติดบน HTTP",
   'login.insecureCookie.body':
     "คุณกำลังเชื่อมต่อผ่าน HTTP ธรรมดา ดังนั้นเบราว์เซอร์ของคุณจึงทิ้งคุกกี้เซสชันที่ปลอดภัยของ TREK คำขอถัดไปล้มเหลวด้วย \"ต้องใช้โทเค็นการเข้าถึง\" แก้ไข: ใช้ HTTPS หรือสำหรับชุดโฮมแล็บ COOKIE_SECURE=false",
