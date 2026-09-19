@@ -77,7 +77,7 @@ const dayplan: TranslationStrings = {
   'dayplan.mobile.addPlace': "เพิ่มสถานที่",
   'dayplan.mobile.searchPlaces': "ค้นหาสถานที่...",
   'dayplan.mobile.allAssigned': "ทุกสถานที่ที่ได้รับมอบหมาย",
-  'dayplan.mobile.noMatch': "ไม่มีการแข่งขัน",
+  'dayplan.mobile.noMatch': "ไม่พบรายการที่ตรงกัน",
   'dayplan.mobile.createNew': "สร้างสถานที่ใหม่",
   'dayplan.reorderDays': "จัดลำดับวันใหม่",
   'dayplan.reorderTitle': "จัดลำดับวันใหม่",

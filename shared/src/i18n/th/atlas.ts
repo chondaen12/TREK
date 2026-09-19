@@ -36,7 +36,7 @@ const atlas: TranslationStrings = {
   'atlas.noData': "ยังไม่มีข้อมูลการเดินทาง",
   'atlas.noDataHint': "สร้างการเดินทางและเพิ่มสถานที่เพื่อดูแผนที่โลกของคุณ",
   'atlas.nextTrip': "ทริปต่อไป",
-  'atlas.daysLeft': "เหลืออีกไม่กี่วัน",
+  'atlas.daysLeft': "เหลืออีกหลายวัน",
   'atlas.streak': "ริ้ว",
   'atlas.years': "ปี",
   'atlas.yearInRow': "ปีติดต่อกัน",

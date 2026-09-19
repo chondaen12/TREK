@@ -28,7 +28,7 @@ const perm: TranslationStrings = {
   'perm.action.day_edit': "แก้ไขวัน บันทึกย่อ และการมอบหมาย",
   'perm.action.reservation_edit': "จัดการการจอง",
   'perm.action.budget_edit': "จัดการงบประมาณ",
-  'perm.action.packing_edit': "จัดการรายการบรรจุภัณฑ์",
+  'perm.action.packing_edit': "จัดการรายการจัดกระเป๋า",
   'perm.action.collab_edit': "การทำงานร่วมกัน (บันทึกย่อ โพล แชท)",
   'perm.action.share_manage': "จัดการลิงก์แชร์",
   'perm.actionHint.trip_create': "ใครสามารถสร้างทริปใหม่ได้",

@@ -10,7 +10,7 @@ const register: TranslationStrings = {
   'register.feature2': "มุมมองแผนที่แบบโต้ตอบ",
   'register.feature3': "จัดการสถานที่และหมวดหมู่",
   'register.feature4': "ติดตามการจอง",
-  'register.feature5': "สร้างรายการบรรจุภัณฑ์",
+  'register.feature5': "สร้างรายการจัดกระเป๋า",
   'register.feature6': "จัดเก็บรูปภาพและไฟล์",
   'register.createAccount': "สร้างบัญชี",
   'register.startPlanning': "เริ่มวางแผนการเดินทางของคุณ",

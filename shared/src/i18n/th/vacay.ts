@@ -36,7 +36,7 @@ const vacay: TranslationStrings = {
   'vacay.entitlement': "สิทธิ",
   'vacay.entitlementDays': "วัน",
   'vacay.used': "ใช้แล้ว",
-  'vacay.remaining': "ซ้าย",
+  'vacay.remaining': "คงเหลือ",
   'vacay.carriedOver': "จาก {year}",
   'vacay.blockWeekends': "บล็อกวันหยุดสุดสัปดาห์",
   'vacay.blockWeekendsHint': "ป้องกันไม่ให้รายการลาพักร้อนในวันสุดสัปดาห์",

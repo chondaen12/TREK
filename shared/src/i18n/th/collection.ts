@@ -82,7 +82,7 @@ const collection: TranslationStrings = {
 
   'collections.empty.title': "ยังไม่มีสถานที่",
   'collections.empty.text': "บันทึกสถานที่จากการเดินทางเพื่อสร้างรายการนี้",
-  'collections.empty.noMatchTitle': "ไม่มีการแข่งขัน",
+  'collections.empty.noMatchTitle': "ไม่พบรายการที่ตรงกัน",
   'collections.empty.noMatchText': "ไม่มีสถานที่ที่บันทึกไว้ซึ่งตรงกับตัวกรองหรือการค้นหาของคุณ",
   'collections.empty.firstTitle': "เริ่มคอลเลกชันแรกของคุณ",
   'collections.empty.firstText': "สร้างรายการเพื่อบันทึกสถานที่ที่คุณต้องการจดจำตลอดการเดินทาง",

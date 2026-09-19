@@ -6,6 +6,6 @@ const pdf: TranslationStrings = {
   'pdf.costLabel': "ราคา",
   'pdf.preview': "ดูตัวอย่าง PDF",
   'pdf.saveAsPdf': "บันทึกเป็น PDF",
-  'pdf.pageBreakPerDay': "หน้าแตกต่อวัน",
+  'pdf.pageBreakPerDay': "ขึ้นหน้าใหม่ทุกวัน",
 };
 export default pdf;

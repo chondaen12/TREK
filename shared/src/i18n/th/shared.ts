@@ -6,7 +6,7 @@ const shared: TranslationStrings = {
   'shared.readOnly': "มุมมองที่ใช้ร่วมกันแบบอ่านอย่างเดียว",
   'shared.tabPlan': "แผน",
   'shared.tabBookings': "การจอง",
-  'shared.tabPacking': "การบรรจุ",
+  'shared.tabPacking': "จัดกระเป๋า",
   'shared.tabBudget': "ค่าใช้จ่าย",
   'shared.tabChat': "แชท",
   'shared.days': "วัน",

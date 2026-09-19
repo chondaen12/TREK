@@ -143,7 +143,7 @@ const budget: TranslationStrings = {
   'costs.ticketAddItem': "เพิ่มรายการ",
   'costs.ticketShares': "หุ้นส่วนบุคคล",
   'costs.excluded': "ไม่รวม",
-  'costs.splitBalanced': "แยกการแข่งขันทั้งหมด",
+  'costs.splitBalanced': "หารเท่า ๆ กัน",
   'costs.splitSumUnder': "ผลรวมของการแยก: {sum} จาก {total} (ต่ำกว่าโดย {diff})",
   'costs.splitSumOver': "ผลรวมของการแยก: {sum} จาก {total} (มากกว่า {diff})",
   'costs.toggleSign': "สลับระหว่างค่าใช้จ่ายและการคืนเงิน",

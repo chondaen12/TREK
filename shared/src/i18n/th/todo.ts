@@ -2,7 +2,7 @@ import type { TranslationStrings } from '../types';
 
 const todo: TranslationStrings = {
   'todo.emptyFiltered': "ไม่มีงานที่ตรงกับตัวกรองนี้",
-  'todo.subtab.packing': "รายการบรรจุภัณฑ์",
+  'todo.subtab.packing': "รายการจัดกระเป๋า",
   'todo.subtab.todo': "สิ่งที่ต้องทำ",
   'todo.completed': "เสร็จสิ้น",
   'todo.filter.all': "ทั้งหมด",

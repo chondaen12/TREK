@@ -25,7 +25,7 @@ const notifications: TranslationStrings = {
   'notifications.test.booleanText': "นี่คือการแจ้งเตือนแบบบูลีนทดสอบ เลือกการดำเนินการด้านล่าง",
   'notifications.test.accept': "อนุมัติ",
   'notifications.test.decline': "ปฏิเสธ",
-  'notifications.test.navigateTitle': "ตรวจสอบบางสิ่งบางอย่างออก",
+  'notifications.test.navigateTitle': "ลองดูสิ่งนี้",
   'notifications.test.navigateText': "นี่คือการแจ้งเตือนการทดสอบการนำทาง",
   'notifications.test.goThere': "ไปที่นั่น",
   'notifications.test.adminTitle': "แอดมินออกอากาศ",

@@ -99,7 +99,7 @@ const settings: TranslationStrings = {
   'settings.notifyVacayShare': "การแชร์ปฏิทินวันหยุด",
   'settings.notifyPhotosShared': "รูปภาพที่แชร์ (อิมมิช)",
   'settings.notifyCollabMessage': "ข้อความแชท (ร่วมกัน)",
-  'settings.notifyPackingTagged': "รายการบรรจุภัณฑ์: การมอบหมายงาน",
+  'settings.notifyPackingTagged': "รายการจัดกระเป๋า: มีการมอบหมายรายการให้คุณ",
   'settings.notifyWebhook': "การแจ้งเตือนของเว็บฮุค",
   'settings.notifyVersionAvailable': "มีเวอร์ชันใหม่แล้ว",
   'settings.notificationPreferences.email': "อีเมล",
