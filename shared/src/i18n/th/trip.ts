@@ -31,7 +31,7 @@ const trip: TranslationStrings = {
   'trip.confirm.deletePlace': "คุณแน่ใจหรือไม่ว่าต้องการลบสถานที่นี้",
   'trip.confirm.deletePlaces': "ลบสถานที่ {count} แห่งใช่ไหม",
   'trip.toast.placesDeleted': "ลบสถานที่ {count} แล้ว",
-  'trip.invite.linkTitle': "ลิงค์เชิญชวนเดินทาง",
+  'trip.invite.linkTitle': "ลิงก์เชิญเข้าร่วมทริป",
   'trip.invite.linkHint':
     "ใครก็ตามที่มีบัญชี TREK ที่เปิดลิงก์นี้จะเข้าร่วมการเดินทางในฐานะสมาชิก สร้างใหม่เพื่อทำให้ลิงก์เก่าใช้ไม่ได้",
   'trip.invite.create': "สร้างลิงก์คำเชิญ",

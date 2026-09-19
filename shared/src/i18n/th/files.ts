@@ -2,8 +2,8 @@ import type { TranslationStrings } from '../types';
 
 const files: TranslationStrings = {
   'files.filterStarred': "ติดดาว",
-  'files.link': "ลิงค์",
-  'files.linkTitle': "ลิงค์ไฟล์",
+  'files.link': "ลิงก์",
+  'files.linkTitle': "ลิงก์ไฟล์",
   'files.linkEmpty': "ยังไม่มีสถานที่หรือการจองที่จะลิงก์",
   'files.menu': "ตัวเลือกเพิ่มเติม",
   'files.uploadErrorSize': "ไฟล์มีขนาดใหญ่เกินไป (สูงสุด 50 MB)",

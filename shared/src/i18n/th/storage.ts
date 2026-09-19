@@ -22,7 +22,7 @@ const storage: TranslationStrings = {
 
   // Panel chrome
   'storage.title': "ที่เก็บของ",
-  'storage.description': "โดยที่ TREK จะเก็บไฟล์ รูปภาพ และข้อมูลสำรองที่อัพโหลดไว้ ไม่มีการเปลี่ยนแปลงจนกว่าคุณจะบันทึก",
+  'storage.description': "TREK จะจัดเก็บไฟล์ รูปภาพ และข้อมูลสำรองที่อัปโหลดไว้ การเปลี่ยนแปลงจะยังไม่มีผลจนกว่าคุณจะบันทึก",
   'storage.loading': "กำลังโหลด...",
   'storage.saved': "บันทึกการกำหนดค่าพื้นที่เก็บข้อมูลแล้ว",
   'storage.save': "บันทึกการเปลี่ยนแปลง",
@@ -88,8 +88,8 @@ const storage: TranslationStrings = {
   'storage.categoryDesc.journey': "ภาพถ่ายและภาพขนาดย่อที่แนบมากับรายการการเดินทาง",
   'storage.categoryDesc.covers': "ภาพหน้าปกการเดินทางและคอลเลกชัน รวมถึงหน้าปกที่ดึงมาจาก Unsplash",
   'storage.categoryDesc.avatars': "รูปโปรไฟล์บัญชีผู้ใช้",
-  'storage.categoryDesc.places': "รูปภาพที่แนบมากับสถานที่และสถานที่รวบรวม — อัปโหลดหรือนำเข้า",
-  'storage.categoryDesc.photos-google': "สำเนารูปภาพ Google สถานที่ในแคช — เรียกซ้ำได้ ปลอดภัยหาย",
+  'storage.categoryDesc.places': "รูปภาพที่แนบมากับสถานที่และคอลเลกชันสถานที่ — อัปโหลดหรือนำเข้า",
+  'storage.categoryDesc.photos-google': "สำเนารูปภาพสถานที่จาก Google ที่แคชไว้ — สร้างใหม่ได้และสามารถลบได้อย่างปลอดภัย",
   'storage.categoryDesc.photos-trek':
     "รูปภาพที่แคชไว้จากบริการภาพถ่าย TREK ที่ใช้โดย Memories — สามารถดึงข้อมูลใหม่ได้ ปลอดภัยที่จะสูญหาย",
   'storage.categoryDesc.backups': "คลังสำรองข้อมูลเซิร์ฟเวอร์ที่สร้างโดยแผงสำรองข้อมูลหรือกำหนดการ",
@@ -102,7 +102,7 @@ const storage: TranslationStrings = {
   'storage.health.failureLine': "{op} จาก {key} บน {backend} ล้มเหลว: {error}",
 
   // Replicas-on-primary mirror UX (2026-08-20 spec)
-  'storage.mirror.targets': "กระจกสะท้อนเป้าหมาย",
+  'storage.mirror.targets': "เป้าหมายการจำลอง",
   'storage.mirror.targetsHelp': "ทุกการเขียนไปยังแบ็กเอนด์นี้จะถูกคัดลอกไปยังแต่ละเป้าหมายที่เลือกด้วย",
   'storage.mirror.latencyNote':
     "การจำลองจะถูกเขียนทีละรายการในระหว่างการอัปโหลดแต่ละครั้ง - เป้าหมายที่ช้าหรือไม่สามารถเข้าถึงได้จะทำให้การอัปโหลดทุกหมวดหมู่ในแบ็กเอนด์นี้ช้าลง",

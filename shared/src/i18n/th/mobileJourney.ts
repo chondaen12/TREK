@@ -10,7 +10,7 @@ const mobileJourney: TranslationStrings = {
   'mobileJourney.time': "เวลา",
   'mobileJourney.tags': "แท็ก",
   'mobileJourney.addTag': "เพิ่มแท็ก",
-  'mobileJourney.uploadFromDevice': "อัพโหลดจากอุปกรณ์",
+  'mobileJourney.uploadFromDevice': "อัปโหลดจากอุปกรณ์",
   'mobileJourney.browseProvider': "เรียกดู {name}",
 };
 

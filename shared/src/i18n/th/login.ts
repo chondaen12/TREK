@@ -45,7 +45,7 @@ const login: TranslationStrings = {
   'login.forgotPasswordTitle': "รีเซ็ตรหัสผ่านของคุณ",
   'login.forgotPasswordBody':
     "ป้อนที่อยู่อีเมลที่คุณสมัครใช้งาน หากมีบัญชีอยู่แล้ว เราจะส่งลิงก์รีเซ็ตไปให้",
-  'login.forgotPasswordSubmit': "ส่งลิงค์รีเซ็ต",
+  'login.forgotPasswordSubmit': "ส่งลิงก์รีเซ็ตรหัสผ่าน",
   'login.forgotPasswordSentTitle': "ตรวจสอบอีเมลของคุณ",
   'login.forgotPasswordSentBody':
     "หากมีบัญชีสำหรับอีเมลนั้น ลิงก์รีเซ็ตกำลังมาถึง จะหมดอายุใน 60 นาที",
@@ -64,7 +64,7 @@ const login: TranslationStrings = {
   'login.resetPasswordSuccessTitle': "อัปเดตรหัสผ่านแล้ว",
   'login.resetPasswordSuccessBody': "ตอนนี้คุณสามารถลงชื่อเข้าใช้ด้วยรหัสผ่านใหม่ของคุณได้แล้ว",
   'login.resetPasswordInvalidLink': "ลิงก์รีเซ็ตไม่ถูกต้อง",
-  'login.resetPasswordInvalidLinkBody': "ลิงค์นี้หายไปหรือใช้งานไม่ได้ ขอใหม่เพื่อดำเนินการต่อ",
+  'login.resetPasswordInvalidLinkBody': "ลิงก์นี้หายไปหรือใช้งานไม่ได้ โปรดขอลิงก์ใหม่เพื่อดำเนินการต่อ",
   'login.resetPasswordFailed': "การรีเซ็ตล้มเหลว ลิงก์อาจหมดอายุแล้ว",
   'login.passkey.signIn': "เข้าสู่ระบบด้วยรหัสผ่าน",
   'login.passkey.failed': "การลงชื่อเข้าใช้รหัสผ่านล้มเหลว โปรดลองอีกครั้ง",

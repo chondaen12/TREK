@@ -2,9 +2,9 @@ import type { TranslationStrings } from '../types';
 
 const backup: TranslationStrings = {
   'backup.title': "การสำรองข้อมูล",
-  'backup.subtitle': "ฐานข้อมูลและไฟล์ที่อัพโหลดทั้งหมด",
+  'backup.subtitle': "ฐานข้อมูลและไฟล์ที่อัปโหลดทั้งหมด",
   'backup.refresh': "รีเฟรช",
-  'backup.upload': "อัพโหลดข้อมูลสำรอง",
+  'backup.upload': "อัปโหลดข้อมูลสำรอง",
   'backup.uploading': "กำลังอัปโหลด...",
   'backup.create': "สร้างข้อมูลสำรอง",
   'backup.creating': "กำลังสร้าง...",
