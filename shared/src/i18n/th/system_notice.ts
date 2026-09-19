@@ -4,7 +4,7 @@ const system_notice: TranslationStrings = {
   'system_notice.v3_photos.title': "รูปภาพได้ย้ายไปอยู่ใน 3.0",
   'system_notice.v3_photos.body':
     "**รูปภาพ** ใน Trip Planner ถูกลบออกแล้ว รูปภาพของคุณปลอดภัย — TREK ไม่เคยแก้ไขไลบรารี Immich หรือ Synology ของคุณ\n\nขณะนี้รูปภาพอยู่ในส่วนเสริม **การเดินทาง** การเดินทางเป็นทางเลือก — หากยังไม่พร้อมใช้งาน โปรดขอให้ผู้ดูแลระบบของคุณเปิดใช้งานภายใต้ผู้ดูแลระบบ → ส่วนเสริม",
-  'system_notice.v3_journey.title': "Meet Journey — บันทึกการเดินทาง",
+  'system_notice.v3_journey.title': "พบกับ Journey — บันทึกการเดินทาง",
   'system_notice.v3_journey.body':
     "บันทึกการเดินทางของคุณเป็นเรื่องราวการเดินทางที่หลากหลายด้วยไทม์ไลน์ แกลเลอรี่รูปภาพ และแผนที่เชิงโต้ตอบ",
   'system_notice.v3_journey.cta_label': "เปิดการเดินทาง",
@@ -52,21 +52,21 @@ const system_notice: TranslationStrings = {
   'system_notice.thank_you_support.cta_kofi': "รองรับ Ko-fi",
   // 4.0.0 release modal — the release on the left, the note from the maintainer on the right
   'system_notice.release_400.eyebrow': "ติดตั้งการอัปเดตแล้ว",
-  'system_notice.release_400.tag': "ปล่อย",
+  'system_notice.release_400.tag': "รุ่นใหม่",
   'system_notice.release_400.headline': "TREK ที่ใหญ่ที่สุดเท่าที่เคยมีมา",
   'system_notice.release_400.intro':
     "TREK มาพร้อมแอปมือถือและเครื่องมือทำหนังสือภาพ รุ่นนี้เกิดจากคน 19 คน และมีรายงานบั๊กประมาณ 150 รายการที่ช่วยให้มันดีขึ้น",
   'system_notice.release_400.feature_mobile_title': "TREK ก้าวไปสู่อุปกรณ์เคลื่อนที่",
   'system_notice.release_400.feature_mobile_body':
-    "ตอนนี้ทุกสิ่งที่มีขนาดต่ำกว่า 768px ก็มีอินเทอร์เฟซของตัวเองแล้ว ไม่ว่าจะเป็นท่าเรือกระจก ผ้าปูที่นอนของตัวเอง และเครื่องมือวางแผนการเดินทางของตัวเอง เปิด TREK บนโทรศัพท์ของคุณ",
+    "ตอนนี้ทุกอย่างที่มีความกว้างต่ำกว่า 768px มีอินเทอร์เฟซสำหรับมือถือของตัวเอง ทั้งแถบนำทางแบบกระจก แผงหน้าจอ และเครื่องมือวางแผนทริป เปิด TREK บนโทรศัพท์ของคุณเพื่อใช้งานได้เลย",
   'system_notice.release_400.feature_studio_title': "เทรค สตูดิโอ",
   'system_notice.release_400.feature_studio_badge': "เบต้า",
   'system_notice.release_400.feature_studio_body':
     "PDF ของ Journey กลายเป็นเครื่องมือออกแบบสมุดภาพ โดยจะจัดเลย์เอาต์หนังสือให้เมื่อคุณต้องการ แล้วปล่อยให้คุณปรับแต่งต่อได้อย่างเต็มที่",
-  'system_notice.release_400.feature_vacay_title': "ส่วนวาเคย์จะเรียนรู้ส่วนที่เหลือ",
+  'system_notice.release_400.feature_vacay_title': "Vacay รองรับได้มากขึ้น",
   'system_notice.release_400.feature_vacay_body':
     "ครึ่งวัน, วันชดเชยและวันที่ยืดหยุ่น, วันหยุดโรงเรียนตามตาราง — และปีการลาที่ไม่ต้องเริ่มในเดือนมกราคม",
-  'system_notice.release_400.feature_places_title': "สถานที่แสดงตัวเอง ไฟล์ถูกย้ายออก",
+  'system_notice.release_400.feature_places_title': "รายละเอียดสถานที่อัตโนมัติ และย้ายไฟล์ออกจากเซิร์ฟเวอร์",
   'system_notice.release_400.feature_places_body':
     "รูปภาพและคำอธิบายกรอกไว้ก่อนที่คุณจะบันทึกสถานที่ และการอัปโหลดของคุณไม่จำเป็นต้องอยู่บนดิสก์ TREK อีกต่อไป",
   'system_notice.release_400.footnote':
@@ -87,9 +87,9 @@ const system_notice: TranslationStrings = {
   'system_notice.release_400.cta_bmc': "ซื้อกาแฟให้ฉันหน่อย",
   'system_notice.release_400.cta_kofi': "รองรับ Ko-fi",
   'system_notice.pager.prev': "ประกาศก่อนหน้า",
-  'system_notice.pager.next': "แจ้งครั้งต่อไป",
+  'system_notice.pager.next': "ประกาศถัดไป",
   'system_notice.pager.counter': "{current} / {total}",
-  'system_notice.pager.goto': "ไปที่ข้อสังเกต {n}",
+  'system_notice.pager.goto': "ไปที่ประกาศ {n}",
   'system_notice.pager.position': "ประกาศ {current} จาก {total}",
 };
 export default system_notice;

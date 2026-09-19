@@ -8,7 +8,7 @@ const collab: TranslationStrings = {
   'collab.polls.countdownDaysHours': "{d}d {h} เหลืออีก",
   'collab.polls.countdownHoursMinutes': "{h}ชม {m}นาทีที่เหลือ",
   'collab.polls.countdownMinutes': "เหลืออีก {m} นาที",
-  'collab.polls.clearDeadline': "กำหนดเวลาที่ชัดเจน",
+  'collab.polls.clearDeadline': "ล้างกำหนดเวลา",
   'collab.tabs.chat': "แชท",
   'collab.tabs.notes': "หมายเหตุ",
   'collab.tabs.polls': "โพล",

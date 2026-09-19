@@ -468,7 +468,7 @@ const admin: TranslationStrings = {
   'admin.plugins.sortDownloads': "ดาวน์โหลดมากที่สุด",
   'admin.plugins.updatesAvailable': "{count} มีการอัปเดตสำหรับปลั๊กอินของคุณ",
   'admin.plugins.newerNeedsTrek': "v{version} ว่าง — ต้องการ TREK {range}",
-  'admin.plugins.updateAll': "อัพเดททั้งหมดครับ",
+  'admin.plugins.updateAll': "อัปเดตทั้งหมด",
   'admin.plugins.versionsTitle': "รุ่นต่างๆ",
   'admin.plugins.versionPickerTitle': "เปลี่ยนเวอร์ชัน — {name}",
   'admin.plugins.versionSwitch': "เปลี่ยนไปที่ {version}",

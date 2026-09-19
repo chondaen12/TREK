@@ -95,7 +95,7 @@ const settings: TranslationStrings = {
   'settings.notifyBookingChange': "การเปลี่ยนแปลงการจอง",
   'settings.notifyTripReminder': "การแจ้งเตือนการเดินทาง",
   'settings.notifyTodoDue': "สิ่งที่ต้องทำจะครบกำหนดเร็วๆ นี้",
-  'settings.notifyVacayInvite': "คำเชิญฟิวชั่นวันหยุด",
+  'settings.notifyVacayInvite': "คำเชิญรวมปฏิทินวันลา",
   'settings.notifyVacayShare': "การแชร์ปฏิทินวันหยุด",
   'settings.notifyPhotosShared': "รูปภาพที่แชร์ (อิมมิช)",
   'settings.notifyCollabMessage': "ข้อความแชท (ร่วมกัน)",

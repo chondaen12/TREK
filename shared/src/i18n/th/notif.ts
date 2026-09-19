@@ -13,7 +13,7 @@ const notif: TranslationStrings = {
   'notif.trip_reminder.text': "การเดินทาง {trip} ของคุณกำลังจะมาถึงเร็วๆ นี้!",
   'notif.todo_due.title': "สิ่งที่ต้องทำเนื่องจาก",
   'notif.todo_due.text': "{todo} ใน {trip} ครบกำหนดในวันที่ {due}",
-  'notif.vacay_invite.title': "เชิญพักร้อนฟิวชั่น",
+  'notif.vacay_invite.title': "คำเชิญรวมปฏิทินวันลา",
   'notif.vacay_invite.text': "{actor} เชิญคุณมารวมแผนวันหยุด",
   'notif.vacay_share.title': "ปฏิทินวันหยุดที่ใช้ร่วมกัน",
   'notif.vacay_share.text': "{actor} แบ่งปันปฏิทินวันหยุดกับคุณ",

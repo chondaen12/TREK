@@ -17,7 +17,7 @@ const day: TranslationStrings = {
   'day.noPlacesForHotel': "เพิ่มสถานที่ในการเดินทางของคุณก่อน",
   'day.allDays': "ทั้งหมด",
   'day.checkIn': "เช็คอิน",
-  'day.checkInUntil': "จนกระทั่ง",
+  'day.checkInUntil': "เช็กอินได้ถึง",
   'day.checkOut': "เช็คเอาท์",
   'day.confirmation': "การยืนยัน",
   'day.editAccommodation': "แก้ไขที่พัก",

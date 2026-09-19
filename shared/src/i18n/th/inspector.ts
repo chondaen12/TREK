@@ -19,7 +19,7 @@ const inspector: TranslationStrings = {
   'inspector.website': "เปิดเว็บไซต์",
   'inspector.saveToCollection': "บันทึกลงคอลเลกชัน",
   'inspector.savedToCollection': "บันทึกแล้ว",
-  'inspector.addRes': "สำรองห้องพัก",
+  'inspector.addRes': "เพิ่มการจอง",
   'inspector.editRes': "แก้ไขการจอง",
   'inspector.participants': "ผู้เข้าร่วม",
   'inspector.trackStats': "ติดตามสถิติ",
